@@ -32,7 +32,7 @@ namespace CommandAPI.Test
             dbContext.Dispose();
             controller = null;
         }
-
+        //remove this commment for production
         [Fact]
         public void GetCommandItems_ReturnsZeroItems_WhenDBIsEmpty()
         {
